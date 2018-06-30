@@ -24,7 +24,7 @@ void phi2_hash(const char* input, char* output)
     sph_skein512_context ctx_skein;
 
     sph_cubehash512_init(&ctx_cubehash);
-    sph_cubehash512(&ctx_cubehash, (const void*) hash, (144,80));
+    sph_cubehash512(&ctx_cubehash, (const void*) hash, 80);
     sph_cubehash512_close(&ctx_cubehash, (void*)hashB);
 
     LYRA2(&hashA[ 0], 32, &hashB[ 0], 32, &hashB[ 0], 32, 1, 8, 8);
