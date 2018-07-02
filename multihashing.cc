@@ -6,31 +6,7 @@
 #include <stdio.h>
 
 extern "C" {
-    #include "bcrypt.h"
-    #include "keccak.h"
-    #include "quark.h"
-    #include "scryptjane.h"
-    #include "scryptn.h"
-    #include "skein.h"
-    #include "x11.h"
-    #include "groestl.h"
-    #include "blake.h"
-    #include "fugue.h"
-    #include "qubit.h"
-    #include "hefty1.h"
-    #include "shavite3.h"
-    #include "x13.h"
-    #include "nist5.h"
-    #include "sha1.h"
-    #include "x15.h"
-    #include "fresh.h"
-    #include "Lyra2RE.h"
-    #include "Lyra2.h"
-    #include "Lyra2REV2.h"
-    #include "Lyra2Z.h"
-    #include "lbry.h"
-    #include "hcash.h"
-    #include "phi.h"
+   
     #include "phi2.h"
 }
 
