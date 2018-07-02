@@ -12,7 +12,8 @@
                                           'sph/cubehash.c',
                                           'sph/streebog.c',
                                           'sph/echo.c',
-										  'lyra2/Lyra2.c'
+										  'lyra2/Lyra2.c',
+                                          'lyra2/Sponge.c'
                
             ],
             "include_dirs": [
