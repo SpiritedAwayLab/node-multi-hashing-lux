@@ -4,12 +4,12 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
-#include "sha3/sph_skein.h"
-#include "sha3/sph_jh.h"
-#include "sha3/sph_cubehash.h"
-#include "gost.h"
-#include "sha3/sph_echo.h"
-#include "Lyra2.h"
+#include "sph/sph_skein.h"
+#include "sph/sph_jh.h"
+#include "sph/sph_cubehash.h"
+#include "sph/sph_streebog.h"
+#include "sph/sph_echo.h"
+#include "lyra2/Lyra2.h"
 
 void phi2_hash(const char* input, char* output)
 {
